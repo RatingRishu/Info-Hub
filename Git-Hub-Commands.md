@@ -41,22 +41,20 @@ Usage: When you want to clean up your commit history before merging a feature br
 **git rebase -i HEAD~n**
  In the interactive mode, replace 'pick' with 'squash' for the commits you want to squash
 
-**git rebase -i HEAD~3**
- In the editor, change:
- pick a1b2c3 First commit
- pick d4e5f6 Second commit
- pick g7h8i9 Third commit
- To:
- pick a1b2c3 First commit
- squash d4e5f6 Second commit
- squash g7h8i9 Third commit
+**git rebase -i HEAD~3** <br>
+ In the editor, change: <br>
+ pick a1b2c3 First commit <br>
+ pick d4e5f6 Second commit <br>
+ pick g7h8i9 Third commit <br>
+ To: <br>
+ pick a1b2c3 First commit <br>
+ squash d4e5f6 Second commit <br>
+ squash g7h8i9 Third commit <br>
 
- 
-
-**Merge: Integrates changes from one branch to another.**<br>
-**Rebase: Moves or combines commits to a new base.**
-**Checkout: Switches branches or restores files.**
-**Push: Sends local changes to a remote repository.**
-**Pull: Fetches and merges changes from a remote repository.**
-**Cherry-pick: Applies changes from a specific commit.**
-**Squash: Combines multiple commits into one.**
+**Merge: Integrates changes from one branch to another.** <br>
+**Rebase: Moves or combines commits to a new base.** <br>
+**Checkout: Switches branches or restores files.** <br>
+**Push: Sends local changes to a remote repository.** <br>
+**Pull: Fetches and merges changes from a remote repository.** br>
+**Cherry-pick: Applies changes from a specific commit.** <br>
+**Squash: Combines multiple commits into one.** <br>
