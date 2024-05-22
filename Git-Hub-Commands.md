@@ -53,7 +53,7 @@ Usage: When you want to clean up your commit history before merging a feature br
 
  
 
-**Merge: Integrates changes from one branch to another.**
+**Merge: Integrates changes from one branch to another.**<br>
 **Rebase: Moves or combines commits to a new base.**
 **Checkout: Switches branches or restores files.**
 **Push: Sends local changes to a remote repository.**
