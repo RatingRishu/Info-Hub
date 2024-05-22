@@ -55,6 +55,6 @@ Usage: When you want to clean up your commit history before merging a feature br
 **Rebase: Moves or combines commits to a new base.** <br>
 **Checkout: Switches branches or restores files.** <br>
 **Push: Sends local changes to a remote repository.** <br>
-**Pull: Fetches and merges changes from a remote repository.** br>
+**Pull: Fetches and merges changes from a remote repository.** <br>
 **Cherry-pick: Applies changes from a specific commit.** <br>
 **Squash: Combines multiple commits into one.** <br>
