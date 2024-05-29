@@ -1,6 +1,5 @@
 # GitHub Setup and Initial Commit
 
-```sh
 # Configure Git with your username and email
 git config --local user.name "YourUsername"
 git config --local user.email "youremail@example.com"
@@ -29,8 +28,26 @@ git push -u origin main
 
 # Making the Angular Project Live
 
+# Install angular-cli-ghpages package
+ng add angular-cli-ghpages
+
+# Commit the changes after adding the package
+git add .
+git commit -m "Add angular-cli-ghpages package"
+
+# Push the changes to the remote repository
+git push
+
+# Go to GitHub repository settings > Pages
+# Update the source to 'main' branch and save
+
 # Build the Angular project with the base URL (replace with your GitHub Pages URL)
 ng build --base-href "https://YourUsername.github.io/YourRepository/"
 
 # Deploy the project to GitHub Pages
 npx angular-cli-ghpages --dir=dist/your-project
+
+# Go to GitHub repository settings > Pages
+# Update the source to 'gh-pages' branch and save
+
+# Your repository page is now live
