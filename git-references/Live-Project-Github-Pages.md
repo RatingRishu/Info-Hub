@@ -32,9 +32,9 @@ git push -u origin main
 ng add angular-cli-ghpages
 
 ## Commit and push the changes
-git add .
-git commit -m "Add angular-cli-ghpages package"
-git push
+# git add .
+# git commit -m "Add angular-cli-ghpages package"
+# git push
 
 ## Update GitHub Pages settings to 'main' branch
 # Go to GitHub repository settings > Pages
