@@ -2,10 +2,12 @@
 
 ### `push()`: Add data to the end
 let arr = ['Apple', 'Banana', 'Strawberry'];
+<br>
 arr.push('Mango');    // returns updated length i.e: 4
+<br>
 console.log(arr);     // ['Apple', 'Banana', 'Strawberry', 'Mango']
 
-#pop() Remove data from the end
+### `pop()`: Remove data from the end
 
 Eg:   let arr = ['Apple', 'Banana', 'Strawberry'];
 	arr.pop();    // return a data which is popping out i.e: Strawberry
