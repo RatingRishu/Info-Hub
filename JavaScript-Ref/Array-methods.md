@@ -1,8 +1,9 @@
-#push() Add data to the end
+## Array Methods
 
-Eg:   let arr = ['Apple', 'Banana', 'Strawberry'];
-	arr.push('Mango');    // return updated length i.e: 4
-	console.log(arr);    // ['Apple', 'Banana', 'Strawberry', 'Mango']
+### `push()`: Add data to the end
+let arr = ['Apple', 'Banana', 'Strawberry'];
+arr.push('Mango');    // returns updated length i.e: 4
+console.log(arr);     // ['Apple', 'Banana', 'Strawberry', 'Mango']
 
 #pop() Remove data from the end
 
