@@ -1,30 +1,36 @@
-	• #push() Add data to the end
+#push() Add data to the end
+
 Eg:   let arr = ['Apple', 'Banana', 'Strawberry'];
 	arr.push('Mango');    // return updated length i.e: 4
 	console.log(arr);    // ['Apple', 'Banana', 'Strawberry', 'Mango']
 
-	• #pop() Remove data from the end
+#pop() Remove data from the end
+
 Eg:   let arr = ['Apple', 'Banana', 'Strawberry'];
 	arr.pop();    // return a data which is popping out i.e: Strawberry
 	console.log(arr);    // ['Apple', 'Banana']
 
-	• #shift() Remove data from the start
+#shift() Remove data from the start
+
 Eg:   let arr = ['Apple', 'Banana', 'Strawberry'];
 	arr.shift();    // return a data which is popping out i.e: Apple
 	console.log(arr);    // ['Banana', 'Strawberry']
 
-	• unshift() Add data to the start
+#unshift() Add data to the start
+
 Eg:   let arr = ['Apple', 'Banana', 'Strawberry'];
 	arr.unshift('Mango');    // return updated length i.e: 4
 	console.log(arr);    // ['Mango', Apple', 'Banana', 'Strawberry']
 	
-	• includes() Look for a value and returns true or false
+#includes() Look for a value and returns true or false
+
 Eg:    let arr = ['Apple', 'Banana', 'Strawberry'];
 	arr.includes('Mango');    // returns false
 
 Also have an optional argument from where to start searching.
 
-	• indexOf() Searches for a value and if it founds it, returns the index of it. And if it doesn't found returns -1.
+#indexOf() Searches for a value and if it founds it, returns the index of it. And if it doesn't found returns -1.
+
 Eg:    let arr = ['Apple', 'Banana', 'Strawberry'];
 	arr.indexOf('Strawberry');    // returns 2
 	
